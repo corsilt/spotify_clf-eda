@@ -6,12 +6,11 @@
 <br>
 
 ## The results are as followed and can be seen in more detail in the notebooks
-1)
-### Obtaining data and linking
+### 1) Obtaining data and linking
 Succesfully downloaded all streaming data and extracted features, genres, etc. using the spotipy API to build a master dataset
 <br>
-2)
-### Building Classifier
+### 2) Building Classifier
+
 ![image](https://user-images.githubusercontent.com/52717506/147284986-a712c687-efd2-4e2f-981b-9dee303ebf71.png)
 
 The results show how difficult is to classify a liked songs vs not liked songs; most importantly it shows how difficult it is to classify or reccomend a liked song based on the features available in the spotify api.
@@ -20,11 +19,12 @@ The best classifier was one that was trained on the synthetic dataset (supplment
 My reccomendations for future work would be futher testing for model robustness, deploying the model in a production environment such as flask, focus on feature engineering, and finding additional features that may have better predictive power than the ones used here.
 
 <br>
-3)
-### Basic EDA
+### 3) Basic EDA
+
 ![image](https://user-images.githubusercontent.com/52717506/147285061-ec906a96-0adc-497a-8532-54291083a8ba.png)
 
 ![image](https://user-images.githubusercontent.com/52717506/147285103-4fc9907c-1e35-4294-bf2b-a16889496186.png)
+
 <br>
 4)
 ### NLP Clustering using word2vec vs PCA on average features
