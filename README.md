@@ -4,6 +4,6 @@
 * Perform some EDA on my streaming history to discover historical top genres and artists
 * Cluster the top genres and artists using NLP techniques (word2vec) and using simple PCA on the featurized dataset
 <br>
-<br>
 
-### The results are as followed and can be seen in more detail in the notebooks
+## The results are as followed and can be seen in more detail in the notebooks
+1) Succesfully downloaded all streaming data and extracted features, genres, etc. using the spotipy API to build a master dataset
