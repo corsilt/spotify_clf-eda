@@ -1,8 +1,8 @@
 # I set out on this project to achieve the following goals:
-* Obtain all of my streaming data from Spotify and featurize it using the spotipy API
-* Build a classifier using pycaret to accuractely predict liked songs in my streaming history (potentially for a reccomendation system)
-* Perform some EDA on my streaming history to discover historical top genres and artists
-* Cluster the top genres and artists using NLP techniques (word2vec) and using simple PCA on the featurized dataset
+1. Obtain all of my streaming data from Spotify and featurize it using the spotipy API
+2. Build a classifier using pycaret to accuractely predict liked songs in my streaming history (potentially for a reccomendation system)
+3. Perform some EDA on my streaming history to discover historical top genres and artists
+4. Cluster the top genres and artists using NLP techniques (word2vec) and using simple PCA on the featurized dataset
 <br>
 
 ## The results are as followed and can be seen in more detail in the notebooks
@@ -19,6 +19,7 @@ The best classifier was one that was trained on the synthetic dataset (supplment
 My reccomendations for future work would be futher testing for model robustness, deploying the model in a production environment such as flask, focus on feature engineering, and finding additional features that may have better predictive power than the ones used here.
 
 <br>
+
 ### 3) Basic EDA
 
 ![image](https://user-images.githubusercontent.com/52717506/147285061-ec906a96-0adc-497a-8532-54291083a8ba.png)
