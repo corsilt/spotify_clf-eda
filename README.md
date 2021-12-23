@@ -14,8 +14,11 @@ Succesfully downloaded all streaming data and extracted features, genres, etc. u
 ![image](https://user-images.githubusercontent.com/52717506/147284986-a712c687-efd2-4e2f-981b-9dee303ebf71.png)
 
 The results show how difficult is to classify a liked songs vs not liked songs; most importantly it shows how difficult it is to classify or reccomend a liked song based on the features available in the spotify api.
+
 Nonetheless this is consistent with my experience with spotify. There are many weeks when I do not like any of the songs pushed to me spotify's discover weekly playlists. Songs that I chose to like are exceedingly rare. There are many songs that I enjoy to have on, but don't actualy click the liked button, because my threshold for songs I want to save is very high.
+
 The best classifier was one that was trained on the synthetic dataset (supplmental synthetic samples were added to balance the classes) with an accuracy of 0.74, but a precision of 0.17. Precision was the metric I was focused on because I want the classifier to be able to reliably find songs that I will like. This is a very difficult task, but nonetheless a preicion of 0.17 could be reliable enough. This could mean finding a song i like for every 5-6 songs reccomended, which is actually quite good. Aneetodcelty, this would be an improvement on Spotify's discover weekly reccomendations
+
 My reccomendations for future work would be futher testing for model robustness, deploying the model in a production environment such as flask, focus on feature engineering, and finding additional features that may have better predictive power than the ones used here.
 
 <br>
