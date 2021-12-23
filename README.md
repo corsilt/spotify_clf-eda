@@ -5,4 +5,5 @@
 * Cluster the top genres and artists using NLP techniques (word2vec) and using simple PCA on the featurized dataset
 <br>
 <br>
-## The results are as followed and can be seen in more detail in the notebooks
+
+### The results are as followed and can be seen in more detail in the notebooks
