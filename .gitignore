@@ -1,0 +1,9 @@
+secrets.py
+.env
+.cache*
+*.data
+*.csv
+__pycache__
+.ipynb_checkpoints
+requirements.txt
+spotify data 24oct2019.ipynb
