@@ -26,18 +26,24 @@ My reccomendations for future work would be futher testing for model robustness,
 ![image](https://user-images.githubusercontent.com/52717506/147285103-4fc9907c-1e35-4294-bf2b-a16889496186.png)
 
 <br>
-4)
-### NLP Clustering using word2vec vs PCA on average features
+
+### 4) NLP Clustering using word2vec vs PCA on average features
 I obtained some very interesting results for this part. I had a difficult time finding quality clusters using the averaged features for each dataframe; my hypothesis is that my streaming history is already so similar that it is difficult to seperate artists and genres. Nonetheless, using word2vec to cluster genres proved to quite effective as you can  see from the following plots. Plot 1 is clustering based on word2vec and plot2 is using the average features.
 ### word2vec clustering
+
 ![image](https://user-images.githubusercontent.com/52717506/147285398-cb93bcc4-5073-41a1-8546-b6d2d3e1131d.png)
+
 ### average features clustering
+
 ![image](https://user-images.githubusercontent.com/52717506/147285407-749fd08c-c082-4eda-b265-7eab74d781e3.png)
 
 The results for clustering on artists were different that for genres. In this instance, the average df feaures were better at seperating clusters.
 ### word2vec clustering
+
 ![image](https://user-images.githubusercontent.com/52717506/147285479-4ebe24e8-5afc-4304-a7e2-7ea8a18c04f1.png)
+
 ### average features clustering
+
 ![image](https://user-images.githubusercontent.com/52717506/147285493-5410f28d-a00b-4491-bb65-f11ca62620d6.png)
 
 
