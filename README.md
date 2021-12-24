@@ -32,7 +32,9 @@ My reccomendations for future work would be futher testing for model robustness,
 <br>
 
 ### 4) NLP Clustering using word2vec vs PCA on average features
-I obtained some very interesting results for this part. I had a difficult time finding quality clusters using the averaged features for each dataframe; my hypothesis is that my streaming history is already so similar that it is difficult to seperate artists and genres. Nonetheless, using word2vec to cluster genres proved to quite effective as you can  see from the following plots. Plot 1 is clustering based on word2vec and plot2 is using the average features.
+I obtained some very interesting results for this part. I had a difficult time finding quality clusters using the averaged features for each dataframe; my hypothesis is that my streaming history is already so similar that it is difficult to seperate artists and genres. Nonetheless, using word2vec to cluster genres proved to quite effective as you can  see from the following plots. The results suggest NLP methods could be effective reccomendation and ML tasks related to spotify's platform.
+
+Plot 1 is clustering based on word2vec and plot2 is using the average features.
 ### genres
 
 ### word2vec clustering
