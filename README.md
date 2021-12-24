@@ -9,7 +9,7 @@
 ### 1) Obtaining data and linking
 Succesfully downloaded all streaming data and extracted features, genres, etc. using the spotipy API to build a master dataset
 <br>
-### 2) Building Classifier
+### 2) Building classifier with severly imbalanced dataset
 
 ![image](https://user-images.githubusercontent.com/52717506/147284986-a712c687-efd2-4e2f-981b-9dee303ebf71.png)
 
